@@ -1,1 +1,50 @@
-<p>contact works!</p>
+<div class="container py-4 contact-wrapper">
+  <form
+    id="contactForm"
+    action="https://getform.io/f/e52a1664-5a7b-4435-9f4d-46c7d3503ec9"
+    target="_blank"
+    method="POST"
+  >
+    <div class="mb-3">
+      <label class="form-label text-light" for="name">Name</label>
+      <input
+        class="form-control"
+        id="name"
+        name="name"
+        type="text"
+        placeholder="Name"
+        required="required"
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label text-light" for="emailAddress"
+        >Email Address</label
+      >
+      <input
+        class="form-control"
+        id="emailAddress"
+        name="email"
+        type="email"
+        placeholder="Email Address"
+        required="required"
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label text-light" for="message">Message</label>
+      <textarea
+        class="form-control"
+        id="message"
+        name="message"
+        type="text"
+        placeholder="Message"
+        style="height: 10rem"
+        required="required"
+      ></textarea>
+    </div>
+    <div class="d-grid">
+      <button class="btn btn-success btn-lg text-light" type="submit">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
